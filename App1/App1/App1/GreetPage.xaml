@@ -2,7 +2,9 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="App1.GreetPage">
-    <Button HorizontalOptions="Center" VerticalOptions="Center" Text="click me" Clicked="Button_Clicked">
-        
-    </Button>
+    <StackLayout Orientation="Vertical" VerticalOptions="Center" HorizontalOptions="Center">
+        <Label Text="Hello World" TextType="Text" TextTransform="Uppercase" WidthRequest="160"
+           TextColor="Black" FontSize="Large" x:Name="label" />
+    <Slider BackgroundColor="Blue" ThumbColor="Yellow" HeightRequest="50" ValueChanged="Slider_ValueChanged" x:Name="slider"/>
+    </StackLayout>
 </ContentPage>
