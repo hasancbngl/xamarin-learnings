@@ -18,11 +18,5 @@ namespace App1
 
             slider.Value = 0.5;
         }
-
-        private void Slider_ValueChanged(object sender, ValueChangedEventArgs e)
-        {
-            //0:F2 format 2 digits 
-            label.Text = String.Format("Value is {0:F2}", e.NewValue);
-        }
     }
 }

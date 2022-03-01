@@ -3,8 +3,9 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="App1.GreetPage">
     <StackLayout Orientation="Vertical" VerticalOptions="Center" HorizontalOptions="Center">
-        <Label Text="Hello World" TextType="Text" TextTransform="Uppercase" WidthRequest="160"
-           TextColor="Black" FontSize="Large" x:Name="label" />
-    <Slider BackgroundColor="Blue" ThumbColor="Yellow" HeightRequest="50" ValueChanged="Slider_ValueChanged" x:Name="slider"/>
+        <Label Text=" {Binding Source={ x:Reference slider}, Path=Value, StringFormat='Slider Value is {0:F2}'} "
+               TextType="Text" TextTransform="Uppercase" WidthRequest="160"  TextColor="Black"
+               FontSize="Large" x:Name="label" />
+    <Slider BackgroundColor="Blue" ThumbColor="Yellow" HeightRequest="50" x:Name="slider"/>
     </StackLayout>
 </ContentPage>
