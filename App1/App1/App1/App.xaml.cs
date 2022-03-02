@@ -10,7 +10,7 @@ namespace App1
         {
             InitializeComponent();
 
-            MainPage = new GridPage();
+            MainPage = new RelativeLayoutPage();
         }
 
         protected override void OnStart()

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage Padding="0,16,0,0" xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.AbsolutLayoutPage">
+    <AbsoluteLayout>
+        <BoxView AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All"
+                 BackgroundColor="Red"/>
+        <BoxView AbsoluteLayout.LayoutBounds="0.5,0.1,100,100"
+                 AbsoluteLayout.LayoutFlags="PositionProportional" BackgroundColor="Blue"/>
+        <Button AbsoluteLayout.LayoutBounds="0,1, 1, 60" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional" 
+            BackgroundColor="Silver" TextColor="Black" FontSize="17"
+                Text="Get some things  done" CornerRadius="5"/>
+    </AbsoluteLayout>
+</ContentPage>
