@@ -16,3 +16,4 @@ C:\Users\hasan\Desktop\projects\App1\App1\App1\obj\Debug\netstandard2.0\App1.pdb
 C:\Users\hasan\Desktop\projects\App1\App1\App1\obj\Debug\netstandard2.0\GreetPage.xaml.g.cs
 C:\Users\hasan\Desktop\projects\App1\App1\App1\obj\Debug\netstandard2.0\StackPage.xaml.g.cs
 C:\Users\hasan\Desktop\projects\App1\App1\App1\obj\Debug\netstandard2.0\LoginPageExercise.xaml.g.cs
+C:\Users\hasan\Desktop\projects\App1\App1\App1\obj\Debug\netstandard2.0\GridPage.xaml.g.cs
