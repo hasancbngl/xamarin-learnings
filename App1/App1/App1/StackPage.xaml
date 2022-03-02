@@ -2,6 +2,7 @@
 <ContentPage Padding="0,20,0,0" xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="App1.StackPage">
+    <!-- 
     <StackLayout Padding="20" Orientation="Horizontal" VerticalOptions="Center" HorizontalOptions="Center" Spacing="20">
         <StackLayout>
             <Label Text="label 1" BackgroundColor="Blue" FontSize="20" HorizontalTextAlignment="Center" Padding="5"/>
@@ -10,4 +11,5 @@
         <Label Text="label 2" BackgroundColor="Blue" FontSize="25" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Padding="7"/>
         <Label Text="label 3" BackgroundColor="Blue" FontSize="30" VerticalTextAlignment="Center" Padding="20"/>
     </StackLayout>
+    -->
 </ContentPage>

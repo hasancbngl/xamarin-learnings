@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -15,6 +10,17 @@ namespace App1
         public StackPage()
         {
             InitializeComponent();
+            var layout = new StackLayout
+            {
+                Spacing = 40,
+                Padding = new Thickness(20),
+                Orientation = StackOrientation.Vertical,
+                BackgroundColor = Color.Green
+            };
+
+            layout.Children.Add(new Label { Text = "Labeel" });
+
+            Content = layout;
         }
     }
 }
